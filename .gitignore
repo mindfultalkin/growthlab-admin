@@ -1,0 +1,11 @@
+# .gitignore in the root directory of your project
+# Ignore node_modules directories
+node_modules/
+FoE/packages/admin/build
+FoE/node_modules/
+FoE/packages/*/node_modules/
+node_modules/
+dist/
+FoE/packages/admin/.env
+/.env
+
