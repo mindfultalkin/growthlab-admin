@@ -21,7 +21,7 @@ export default function BlogPage() {
   return (
     <>
       <Helmet>
-        <title> Dashboard: Blog | ChipperSage </title>
+        <title> Dashboard: Blog | Mindfultalk </title>
       </Helmet>
 
       <Container>

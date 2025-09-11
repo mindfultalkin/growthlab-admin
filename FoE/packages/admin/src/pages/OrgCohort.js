@@ -330,7 +330,7 @@ function OrgCohort() {
   return (
     <>
       <Helmet>
-        <title> Cohorts | Chippersage </title>
+        <title> Cohorts | Mindfultalk </title>
       </Helmet>
 
       <Container>

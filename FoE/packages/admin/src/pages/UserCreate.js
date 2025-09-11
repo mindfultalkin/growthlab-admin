@@ -715,7 +715,7 @@ const UserCreate = () => {
   return (
     <>
       <Helmet>
-        <title> Learners | ChipperSage </title>
+        <title> Learners | Mindfultalk </title>
       </Helmet>
 
       <Container>

@@ -581,7 +581,7 @@ export default function UserPage() {
   return (
     <>
       <Helmet>
-        <title> Organization | ChipperSage </title>
+        <title> Organization | Mindfultalk </title>
       </Helmet>
 
       <Container>

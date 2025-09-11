@@ -343,7 +343,7 @@ const isNotFound = !filteredCohorts.length && !!filterName;
 return (
     <>
       <Helmet>
-        <title> Program-Cohort Mapping | Chippersage </title>
+        <title> Program-Cohort Mapping | Mindfultalk </title>
       </Helmet>
 
       <Container>

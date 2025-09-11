@@ -388,7 +388,7 @@ const resetUpdateForm = () => {
   return (
     <>
       <Helmet>
-        <title> Cohort | ChipperSage </title>
+        <title> Cohort | Mindfultalk </title>
       </Helmet>
 
       <Container>
