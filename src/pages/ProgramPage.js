@@ -23,14 +23,14 @@ import Scrollbar from '../components/scrollbar';
 import { UserListHead, UserListToolbar } from '../sections/@dashboard/user';
 
 // API Functions
-import { getOrgPrograms } from '../api';
+import { getPrograms } from '../api';
 
 // Constants
 const TABLE_HEAD = [
   { id: 'programId', label: 'Program Id', alignRight: false },
   { id: 'programName', label: 'Program Name', alignRight: false },
-  { id: 'stageCount', label: 'Stages', alignRight: false },
-  { id: 'unitCount', label: 'Units', alignRight: true },
+  { id: 'stages', label: 'Stages', alignRight: false },
+  { id: 'units', label: 'Units', alignRight: true },
 ];
 
 // Helper Functions
@@ -60,7 +60,7 @@ const applySortFilter = (array, comparator, query) => {
   return stabilizedThis.map((el) => el[0]);
 };
 
-const OrgProgramPage = () => {
+const ProgramPage = () => {
   const { id } = useParams();
   const [programs, setPrograms] = useState([]);
   const [order, setOrder] = useState('asc');
@@ -74,7 +74,7 @@ const OrgProgramPage = () => {
   useEffect(() => {
     const fetchPrograms = async () => {
       try {
-        const data = await getOrgPrograms(id);
+        const data = await getPrograms();
         setPrograms(data);
       } catch (error) {
         console.error('Failed to fetch programs:', error);
@@ -130,7 +130,7 @@ const OrgProgramPage = () => {
   return (
     <>
       <Helmet>
-        <title>Programs | Chipper Sage</title>
+        <title>Programs | Mindfultalk </title>
       </Helmet>
 
       <Container>
@@ -208,4 +208,4 @@ const OrgProgramPage = () => {
   );
 };
 
-export default OrgProgramPage;
+export default ProgramPage;

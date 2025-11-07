@@ -59,7 +59,7 @@ export default function DashboardClientPage() {
   return (
     <>
       <Helmet>
-        <title> Dashboard | Organization </title>
+        <title> Dashboard | Mindfultalk </title>
       </Helmet>
 
       <Container maxWidth="xl">

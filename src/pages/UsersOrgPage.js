@@ -375,7 +375,7 @@ export default function UsersOrgPage() {
   return (
     <>
       <Helmet>
-        <title> Levels | Chipper Sage </title>
+        <title> Levels | Mindfultalk </title>
       </Helmet>
 
       <Container>
